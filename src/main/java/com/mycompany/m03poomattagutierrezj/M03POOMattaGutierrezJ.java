@@ -91,7 +91,7 @@ public class M03POOMattaGutierrezJ {
                 } else {
                     System.out.println("--- Endolls Solars, S.L. ---");
                     for (int i = 0; i < casas.size(); i++) {
-                        System.out.println("casa " + i);
+                        System.out.println("casa " + (i+1));
                         System.out.println("Cliente: " + casas.get(i).getNif() + casas.get(i).getNom());
                         System.out.println("Superficie del tejado: " + casas.get(i).getST());
                         System.out.println("Interruptor general: " + casas.get(i).getInterruptor());
